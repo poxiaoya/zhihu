@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/flash/flash",
+    "pages/index/index",
+    "pages/theme/theme",
+    "pages/show/show"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#008BED",
+    "navigationBarTitleText": "知乎",
+    "navigationBarTextStyle":"#fff"
+  }
+}

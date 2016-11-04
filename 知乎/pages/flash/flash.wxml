@@ -1,0 +1,4 @@
+<view class="flash-box">
+    <image src="{{imgData.img}}"></image>
+    <text>每天三次 每次七分钟</text>
+</view>

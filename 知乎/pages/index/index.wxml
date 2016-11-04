@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<include src="../tpls/slide.wxml" class="waibian"></include>
+
+ <view class="body">
+        <header>
+            <swiper indicator-dots="{{indicatorDots}}"
+            autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+            <block wx:for="{{banner}}">
+                <swiper-item class="lunbo">
+                    <image src="{{item.image}}" mode="aspectFill"/>
+                    <text style="color:#fff;">{{item.title}}</text>
+                </swiper-item>
+            </block>
+            </swiper>
+        </header>
+        <view class="cont">
+            <text class="jinri">今日热文</text>
+            <block  wx:for="{{list}}">
+                <navigator class="cont-one" url="../show/show?id={{item.id}}">
+                    <navigator class="left">
+                    {{item.title}}
+                    </navigator>
+                    <view class="right">
+                    <image src="{{item.images[0]}}" mode="aspectFill"/></view>
+                </navigator>
+            </block> 
+        </view>
+    </view>
+
+

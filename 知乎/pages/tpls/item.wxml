@@ -1,0 +1,6 @@
+<template name="item">
+    <view>
+        <text>{{item.title}}</text>
+        <image src="{{item.images[0]}}" mode="aspectFill"></image>
+    </view>
+</template>

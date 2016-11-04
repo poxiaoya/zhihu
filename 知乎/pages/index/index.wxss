@@ -1,0 +1,178 @@
+/**index.wxss**/
+.waibian{
+  position:fixed; 
+  }
+
+
+/*头像*/
+.userinfo {
+  width:100%;
+  height:20%;
+  flex-direction: column;
+  align-items: center;
+  background:#008BED;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  border:2px solid #fff;
+}
+
+.userinfo-nickname {
+  margin-left:20rpx;
+  color: #fff;
+  font-size:36rpx;
+  margin-bottom:20rpx;
+}
+
+/*收藏*/
+.slide-lie{
+  width:100%;
+  height:35px;
+  background:#008BED;
+}
+.slide-lie-box{
+  width:33.333333%;
+  float:left;
+}
+.slide-lie-box image{
+  width:18px;height:18px;
+  line-height:40px;
+  margin-left:10px;
+  vertical-align:middle;
+}
+.slide-lie-box text{
+  font-size:32rpx;
+  line-height:35px;
+  color:#fff;
+  vertical-align:middle;
+}
+
+/*内容*/
+.slide-cont{
+  width:100%;
+  height:100%;
+  background:#fff;
+}
+.slide-cont-ss{
+  height:30px;
+  line-height:30px;
+  color:#555;
+  font-size:36rpx;
+  padding-left:20px;
+}
+.slide-cont-ss:after{
+  content:"+";
+  float:right;
+  margin-right:10px;
+}
+  
+
+/* celan*/
+.circle{
+  width: 100rpx;
+  height: 100rpx;
+  background: #555 url(../images/menu.png) no-repeat center;
+  position: fixed;
+  background-size: 70rpx 70rpx;
+  border-radius: 50rpx;
+  z-index: 9999;
+}
+.slide{
+  width: 70%;
+  height: 400rpx;
+  position: fixed;
+  background:#ccc;
+  z-index: 999;
+  top: 0;
+  transition: all 400ms;
+}
+.slide-hide{
+  transform:translate3d(-100%,0,0);
+}
+.slide-show{
+  transform:translate3d(0,0,0);
+}
+.zz{
+  width: 100%;
+  background:#ccc;
+  z-index: 100;
+  position: fixed;
+  opacity:0.2;
+  
+}
+scroll-view{
+  width: 100%;
+}
+text{
+  margin: 0 15rpx;
+}
+
+
+/*content首页*/
+.body{
+    padding:0;margin:0;
+    font-family:"微软雅黑";
+    background:#eee;
+    margin-top:0;
+}
+swiper{
+  height:440rpx;overflow:hidden;
+}
+block{
+    height:auto;overflow:hidden;
+}
+swiper-item{
+    wwidth:100%;overflow:hidden;
+}
+.lunbo image{
+    width:100%;overflow:hidden;
+    position:absolute;
+}
+.lunbo text{
+  position:absolute;
+  padding:25rpx;
+  bottom:20px;
+}
+
+.cont{
+    width:100%;
+    padding-bottom:20rpx;
+   
+}
+.jinri{
+    width:90%;
+    font-size:32rpx;
+    color:#000000;
+    padding:20rpx;
+    display:block;
+}
+
+.cont-one{
+    width:90%;
+    background:#ffffff;
+    overflow:hidden;
+    margin:20rpx auto;
+    padding:30rpx;
+    border-radius:10rpx;
+    box-shadow:0 1px 2px rgba(0,0,0,0.5);
+
+}
+.left{
+    width:72%;
+    float:left;
+    font-size:32rpx;
+}
+.right{
+    width:25%;
+    background:#ccc;
+    float:right;
+    height:150rpx;
+}
+.right image{
+    width:100%;
+    height:150rpx;
+}
